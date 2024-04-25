@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Camera",
+        "description": "This is using to recognize the hand",
+        "image": "camera.png"
+    },
+    {
+        "title": "Hand",
+        "description": "This is user input",
+        "image": "hand.png"
+    },
+    {
+        "title": "Wireguard",
+        "description": "Secure VPN Network to transfer data to server to client",
+        "image": "wireguard.png"
+    },
+    {
+        "title": "Rabbitmq",
+        "description": "This help us to send and recieve the data",
+        "image": "rabbitmq.jpg"
+    },
+    {
+        "title": "Raspberry pi",
+        "description": "Main MicroController",
+        "image": "RP.jpg"
+    },
+    {
+        "title": "l298n motor driver",
+        "description": "Help to access to Wheel of the vehicle",
+        "image": "L2.jpg"
+    },
+    {
+        "title": "Car",
+        "description": "Car get command and start move",
+        "image": "car.png"
+    },
+    {
+        "title": "Power Supply ",
+        "description": "PowerSupply to entire prototype",
+        "image": "current.png"
+    },
+    {
+        "title": "nodered",
+        "description": "Visual the data in Grapph",
+        "image": "nodered.png"
+    }
+]

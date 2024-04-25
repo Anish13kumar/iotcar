@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css:lee,Roe,400,500,600,700,800,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #fbda61, #ff5acd);
+}
+
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+
+.gesture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 80px;
+    gap: 80px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card {
+    text-align: center;
+    width: 400px;
+    /* height: 240px; */
+    background-color: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 16px;
+    position: relative;
+    padding: 40px 16px;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.imgbx {
+    width: 240px;
+    height: 160px;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    border-radius: 16px;
+    /* box-shadow: 0 0 10px #00000020; */
+    padding: 16px;
+    margin: auto;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover .imgbx {
+    width: 100%;
+    height: 160px;
+    top: -80px;
+    box-shadow: 0 0 10px #00000020;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content {
+    transition: 0.3s ease-in-out;
+}
+
+.content .Details h2 {
+    text-transform: capitalize;
+    font-size: 32px;
+}
+
+.content .Details span {
+    font-size: 22px;
+    color: #6f6f6f;
+    display: block;
+    padding-top: 8px;
+}
+
+.card:hover .content {
+    transform: translate(0, -20px);
+}
+
+/* .card line*/
+
+.line1 {
+    content: '';
+    position: absolute;
+    border: 2px dashed rgb(0, 0, 0);
+    z-index: -1;
+    animation: hozanimation 2s ease-out infinite;
+
+}
+
+.line2 {
+    content: '';
+    position: absolute;
+    border: 2px dashed rgb(45, 46, 34);
+    z-index: -1;
+    animation: lineanimation 2s ease-out infinite;
+}
+
+@keyframes lineanimation {
+    0% {
+        height: 0;
+    }
+
+}
+
+
+@keyframes hozanimation {
+    0% {
+        width: 0;
+    }
+
+}
